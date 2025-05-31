@@ -1,0 +1,10 @@
+nama :
+nim:
+alamat :
+
+jenis barang :
+   1 meja 
+   2 lemari 
+   3 kalkulator 
+   4 pintu
+   5 kaca
