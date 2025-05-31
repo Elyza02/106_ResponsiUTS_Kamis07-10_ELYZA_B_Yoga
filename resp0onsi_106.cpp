@@ -5,8 +5,7 @@ using namespace std;
 int main (){
 
 	 int nama;
-	 string nim;
-	 string saldo,alamat;
+	 string nim ,saldo,alamat, jenis barang;
     
     cout <<"==============================="<<endl;
     cout << "nama:" <<endl;
@@ -18,9 +17,30 @@ int main (){
      cout<<" alamat:";
     cin >> alamat;
 
-    cout <<" barang:"<<endl;
+    cout <<" jenis barang:"<<endl;
+     cout << " 1 meja  "<<endl;
+     cout << " 2 lemari "<<endl;
+      cout << " 3 kalkulator "<<endl;
+       cout << " 4 pintu "<<endl;
+        cout << " 5 kaca "<<endl;
+      
+     cout<<"jenis barang:"<<endl;
      
-   
+     swicht (jenis barang){
+     	case 1 ;
+     	  "1 meja'"; 
+     	 case 2 ;
+     	 "2 meja";
+        case 3 ;
+     	 "3 meja";
+     	 case 4 ;
+     	 "4 meja";
+     	 case 5;
+     	 "5 meja";
+	 }
+	 cout << Barang yang di pilaih 1-3<<barang<<endl
+	  
+	   
 	  
 	  return 0;
    
